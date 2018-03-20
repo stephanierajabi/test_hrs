@@ -1,0 +1,186 @@
+/*Universal Styles*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  cursor: alias;
+}
+/*Header Section*/
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+  background-color:#E2E1E5;
+  opacity: 0.8;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+header img {
+  width: 2.5%;
+}
+
+header .school-name {
+  font-size: 32px;
+  width: 1005px;
+}
+
+/*Navigation Bar*/
+
+nav li {
+  display: inline;
+  padding-left: 16px;
+  font-size: 15px;
+}
+
+nav li:hover {
+  color: #0B4B54;
+  font-weight: 500;
+  transition: color 100ms ease-in 50ms;
+}
+
+/*Banner Section*/
+
+.banner {
+  padding: 32px 24px 32px 24px;
+  background-color: #D1CFD4;
+  position: relative;
+  top: 63px;
+}
+
+.banner img {
+  width: 60%;
+  opacity: 0.6;
+}
+
+.banner-content {
+  margin-left: 24px;
+  width: 35%;
+  float:right;
+  position: relative;
+  top: 200px;
+  right: 30px;
+  color: #19303B;
+}
+
+.banner-content h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 0.5;
+}
+
+.banner-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/*Start Learning Section*/
+
+.start-learning {
+  padding-left: 72px;
+  padding-right: 72px;
+  background-color: #EFEDF2;
+  color: #19303B;
+  position: relative;
+  top: 35px;
+
+}
+
+.start-learning h1 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 40px;
+}
+
+/*Start Learning Section - Courses*/
+
+.courses {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 32px;
+  padding: 24px 32px 24px 32px;
+  width: 1000px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.courses h2:hover {
+  color: #8D8C8F;
+  cursor: alias;
+}
+
+
+.design,
+  .computer-art,
+    .software,
+      .data,
+        .business,
+          .marketing {
+  margin-left: 32px;
+  width: 400px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.software img {
+  padding-left: 10px;
+}
+
+
+.design h2,
+  .computer-art h2,
+    .software h2,
+      .data h2,
+        .business h2,
+          .marketing h2 {
+  padding-left: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.design p, h4,
+  .computer-art p, h4,
+    .software p, h4,
+      .data p, h4,
+        .business p, h4,
+          .marketing p, h4{
+  padding-left: 16px;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 400;
+}
+
+.data,
+  .business,
+    .marketing, .design {
+  margin-top: 32px;
+}
+
+
+/*Footer Section*/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 125px;
+  background-color: #C2C0C4;
+  font-family: 'Playfair Display', serif;
+  opacity: 0.8;
+  position: relative;
+  top: 34px;
+}
+
+i {
+  padding-right: 5px;
+}
+
+footer p {
+  font-size: 15px;
+  color: #19303B;
+}
